@@ -1,0 +1,16 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5EEFA"/>
+      <stop offset="1" stop-color="#C8DDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="140" y="290" width="220" height="140" rx="20" fill="#4C6FAF"/>
+  <rect x="300" y="230" width="220" height="140" rx="20" fill="#5E81C2"/>
+  <rect x="460" y="290" width="220" height="140" rx="20" fill="#7395D1"/>
+  <rect x="140" y="260" width="220" height="22" rx="10" fill="#2E4E85"/>
+  <rect x="300" y="200" width="220" height="22" rx="10" fill="#2E4E85"/>
+  <rect x="460" y="260" width="220" height="22" rx="10" fill="#2E4E85"/>
+  <text x="55" y="540" fill="#294172" font-family="Verdana" font-size="48" font-weight="700">Storage Bins</text>
+</svg>

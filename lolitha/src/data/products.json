@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cleaning-kit",
+    "name": "Multi-Surface Cleaning Kit",
+    "category": "Cleaning",
+    "price": "Rs. 899",
+    "image": "/products/cleaning-kit.svg"
+  },
+  {
+    "id": "cookware-set",
+    "name": "Stainless Steel Cookware Set",
+    "category": "Kitchen",
+    "price": "Rs. 3,499",
+    "image": "/products/cookware-set.svg"
+  },
+  {
+    "id": "storage-bins",
+    "name": "Stackable Storage Bins (Set of 4)",
+    "category": "Storage",
+    "price": "Rs. 1,299",
+    "image": "/products/storage-bins.svg"
+  },
+  {
+    "id": "laundry-basket",
+    "name": "Foldable Laundry Basket",
+    "category": "Laundry",
+    "price": "Rs. 749",
+    "image": "/products/laundry-basket.svg"
+  },
+  {
+    "id": "cutlery-organizer",
+    "name": "Drawer Cutlery Organizer",
+    "category": "Kitchen",
+    "price": "Rs. 599",
+    "image": "/products/cutlery-organizer.svg"
+  },
+  {
+    "id": "mop-bucket-set",
+    "name": "Spin Mop and Bucket Set",
+    "category": "Cleaning",
+    "price": "Rs. 1,699",
+    "image": "/products/mop-bucket-set.svg"
+  }
+]

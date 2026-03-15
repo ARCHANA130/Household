@@ -1,0 +1,15 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2E9FB"/>
+      <stop offset="1" stop-color="#DCCAF4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="220" y="180" width="360" height="280" rx="44" fill="#7A4FA3"/>
+  <rect x="260" y="150" width="280" height="50" rx="24" fill="#5F3A82"/>
+  <circle cx="290" cy="300" r="18" fill="#BFA6D8"/>
+  <circle cx="400" cy="300" r="18" fill="#BFA6D8"/>
+  <circle cx="510" cy="300" r="18" fill="#BFA6D8"/>
+  <text x="55" y="540" fill="#4B2E68" font-family="Verdana" font-size="48" font-weight="700">Laundry Basket</text>
+</svg>

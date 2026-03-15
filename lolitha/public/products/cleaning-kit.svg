@@ -1,0 +1,14 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DFF6EC"/>
+      <stop offset="1" stop-color="#B2E4D5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="160" y="200" width="180" height="240" rx="30" fill="#2F855A"/>
+  <rect x="220" y="160" width="60" height="50" rx="12" fill="#276749"/>
+  <rect x="390" y="230" width="230" height="180" rx="28" fill="#68D391"/>
+  <circle cx="560" cy="320" r="40" fill="#2F855A"/>
+  <text x="55" y="540" fill="#22543D" font-family="Verdana" font-size="48" font-weight="700">Cleaning Kit</text>
+</svg>

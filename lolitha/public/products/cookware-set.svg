@@ -1,0 +1,14 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDEFD6"/>
+      <stop offset="1" stop-color="#F8D9A0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="280" cy="360" rx="170" ry="90" fill="#8B5E34"/>
+  <rect x="430" y="300" width="220" height="120" rx="26" fill="#A47148"/>
+  <rect x="620" y="340" width="70" height="40" rx="18" fill="#6B4423"/>
+  <circle cx="270" cy="330" r="24" fill="#D4A373"/>
+  <text x="55" y="540" fill="#5A3E2B" font-family="Verdana" font-size="48" font-weight="700">Cookware Set</text>
+</svg>

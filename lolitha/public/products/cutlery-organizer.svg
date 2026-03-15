@@ -1,0 +1,14 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE9E3"/>
+      <stop offset="1" stop-color="#FFCFC2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="170" y="230" width="460" height="210" rx="26" fill="#C96F56"/>
+  <rect x="210" y="260" width="120" height="150" rx="14" fill="#F5B19B"/>
+  <rect x="350" y="260" width="120" height="150" rx="14" fill="#F7BEAB"/>
+  <rect x="490" y="260" width="100" height="150" rx="14" fill="#FAD0C3"/>
+  <text x="55" y="540" fill="#7F3E2E" font-family="Verdana" font-size="44" font-weight="700">Cutlery Organizer</text>
+</svg>
