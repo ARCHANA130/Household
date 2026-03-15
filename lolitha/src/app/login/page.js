@@ -1,14 +1,22 @@
 "use client";
 
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
 import { signIn, signOut, useSession } from "next-auth/react";
+import { useEffect, useState } from "react";
 import { SiteHeader } from "../../components/site-header";
 
 export default function LoginPage() {
   const { data: session, status } = useSession();
-  const searchParams = useSearchParams();
-  const callbackUrl = searchParams.get("callbackUrl") || "/shop";
+  const [callbackUrl, setCallbackUrl] = useState("/shop");
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const callbackFromQuery = params.get("callbackUrl");
+
+    if (callbackFromQuery) {
+      setCallbackUrl(callbackFromQuery);
+    }
+  }, []);
 
   const isLoading = status === "loading";
   const isSignedIn = status === "authenticated";

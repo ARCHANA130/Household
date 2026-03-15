@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { signOut, useSession } from "next-auth/react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useCart } from "./cart-context";
 
 const navLinks = [
@@ -18,28 +18,15 @@ export function SiteHeader() {
   const { data: session, status } = useSession();
   const router = useRouter();
   const pathname = usePathname();
-  const searchParams = useSearchParams();
   const isSignedIn = status === "authenticated";
-  const currentQuery = searchParams.get("q") || "";
-  const [searchInput, setSearchInput] = useState(currentQuery);
-
-  useEffect(() => {
-    setSearchInput(currentQuery);
-  }, [currentQuery]);
+  const [searchInput, setSearchInput] = useState("");
 
   function handleSearchSubmit(event) {
     event.preventDefault();
 
     const query = searchInput.trim();
-    const params = new URLSearchParams(searchParams.toString());
 
-    if (query) {
-      params.set("q", query);
-    } else {
-      params.delete("q");
-    }
-
-    const target = `/shop${params.toString() ? `?${params.toString()}` : ""}`;
+    const target = query ? `/shop?q=${encodeURIComponent(query)}` : "/shop";
 
     if (pathname === "/shop") {
       router.replace(target);
